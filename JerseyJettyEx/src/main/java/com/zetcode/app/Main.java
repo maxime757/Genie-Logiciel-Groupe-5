@@ -38,7 +38,7 @@ public class Main {
 		handlerPortalCtx.setContextPath("/");
 		handlerPortalCtx.setHandler(handlerPortal);
 
-		// Activate handlers
+		//Activate handlers
 		ContextHandlerCollection contexts = new ContextHandlerCollection();
 		contexts.setHandlers(new Handler[] { ctx, handlerPortalCtx });
 		server.setHandler(contexts);
