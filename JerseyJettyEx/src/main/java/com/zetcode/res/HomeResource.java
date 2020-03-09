@@ -91,7 +91,7 @@ public class HomeResource {
     }
     
     @POST
-    @Path("addmodifyplace/{id}/{map}/{coord}")
+    @Path("addmodifyplace/{id}/é{map}/{coord}")
     public void modifyPlace(@PathParam("id") String id,@PathParam("map") String map,@PathParam("coord") String coord,@QueryParam("description") String description) {
     	return;
     }
